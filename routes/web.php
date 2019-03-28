@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/prueba/{parametro}', 'PruebaController@prueba');
+
+Route::resource('trainer', 'TrainerController');
