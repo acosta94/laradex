@@ -16,4 +16,4 @@ Route::get('/', function () {
 });
 Route::get('/prueba/{parametro}', 'PruebaController@prueba');
 
-Route::resource('trainer', 'TrainerController');
+Route::resource('trainers', 'TrainerController');
