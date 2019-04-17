@@ -17,3 +17,6 @@ Route::get('/', function () {
 Route::get('/prueba/{parametro}', 'PruebaController@prueba');
 
 Route::resource('trainers', 'TrainerController');
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
