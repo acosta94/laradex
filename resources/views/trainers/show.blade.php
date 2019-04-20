@@ -13,6 +13,9 @@
             @method('DELETE')
             <button type="submit" class="btn btn-danger">Eliminar</button>
         </form>
+        <modal-button></modal-button>
+        <pokemons-create-form></pokemons-create-form>
+        <pokemons-list></pokemons-list>
     </div>
 
 
